@@ -1,0 +1,132 @@
+/*============================================
+	Print 
+============================================*/
+@media print {
+#wrapper {display:none !important;}
+}
+
+/*============================================
+	Local Nav
+============================================*/
+.lnav-recipes dd{
+	border-top-color:#0c9d2e;
+	border-bottom-color:#0c9d2e;
+}
+.lnav-recipes ul li{
+	border-top-color:#18a33e;
+}
+.lnav-recipes ul li a{
+	background:url(../img/icon_lnav_04.gif) left 50% no-repeat;
+	color:#66cc33;
+}
+.lnav-recipes ul li a:hover{
+	color:#996633;
+}
+.lnav-recipes ul li .stay{
+	color:#996633;
+}
+
+/*============================================
+	Overwrite layout css
+============================================*/
+#fr-content{
+	background-color:#ffffff;
+}
+
+
+/*============================================
+	Header Title
+============================================*/
+
+
+
+/*============================================
+	Content Block
+============================================*/
+#fr-recipes{
+	width:530px;
+	margin:0 auto;
+}
+
+/* box-items-recipes */
+.box-items-recipes{
+	padding-bottom:30px;
+}
+.box-items-recipes li{
+	width:158px;
+	background-color:#E1F3FA;
+	font-size:11px;
+	display:inline-block;
+	vertical-align:top;
+	border-bottom:1px solid #cbcbcb;
+	margin:30px 0 0 14px;
+	padding: 0px !important;
+	border: 1px solid #D8CACA;
+        border-top-style: none;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+}
+html*.box-items-recipes li{
+	display:inline;
+	zoom:1;	
+}
+
+.box-items-recipes-inner-01{
+	position:relative;
+	background:url(../img/bg_frame_01.gif) top left no-repeat;
+	height:170px;
+}
+
+.box-items-recipes-inner-01 p img{
+	position:absolute;
+	top:38px;
+	left:14px;	
+}
+.box-items-recipes-inner-01 h2{
+	position:absolute;
+	top:130px;
+	left:15px;	
+	/*line-height: 20px !important;*/
+}
+
+.box-items-recipes-inner-01 h2 a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #C91522;
+	text-decoration: none;
+}
+
+.box-items-recipes-inner-01 h2 a:hover{
+	font-size: 18px;
+	font-weight: bold;
+	color: #30ADD1;
+	text-decoration: none;
+}
+
+.box-items-recipes-inner-02{
+	padding:5px 8px 8px;
+}
+.box-items-recipes-inner-02 th,
+.box-items-recipes-inner-02 td{
+	vertical-align:top;
+	border-bottom:1px dashed #8e8c72;
+	line-height:1;
+	padding:6px 0 3px;
+}
+.box-items-recipes-inner-02 th{
+	width:45%;
+}
+.box-items-recipes-inner-02 td{
+	width:55%;
+	text-align:right;
+}
+
+
+/*============================================
+	List
+============================================*/
+
+
+/*============================================
+	Table
+============================================*/
